@@ -1,30 +1,51 @@
 /* ============================================
-   Interactive Resume - Apple-inspired design system
+   Interactive Resume - Playful design system
    ============================================ */
 
 :root {
-    --bg: #f5f5f7;
+    --bg: #fff5ec;
     --bg-card: #ffffff;
-    --text: #1d1d1f;
-    --text-secondary: #6e6e73;
-    --text-tertiary: #86868b;
-    --border: #d2d2d7;
-    --border-light: #e8e8ed;
-    --accent: #0071e3;
-    --accent-hover: #0077ed;
-    --accent-light: #e8f0fe;
-    --purple: #6e3adb;
-    --green: #34c759;
-    --red: #ff3b30;
-    --orange: #ff9500;
+    --text: #2b2330;
+    --text-secondary: #6b5f72;
+    --text-tertiary: #9b8fa3;
+    --border: #f1d9c9;
+    --border-light: #f3e4d8;
+    --accent: #ff5a5f;
+    --accent-hover: #ff3d52;
+    --accent-light: #ffe4e1;
+    --purple: #7b6ef6;
+    --green: #1fc8a9;
+    --red: #ff5a5f;
+    --orange: #ff9f1c;
+    --sun: #ffc145;
+    --mint: #1fc8a9;
+    --grape: #7b6ef6;
+    --sky: #38b6ff;
     --sidebar-width: 260px;
-    --radius: 16px;
-    --radius-sm: 10px;
-    --shadow: 0 2px 12px rgba(0,0,0,0.08);
-    --shadow-lg: 0 20px 60px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05);
-    --transition: 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
-    --font: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --radius: 24px;
+    --radius-sm: 16px;
+    --shadow: 0 6px 22px rgba(255,90,95,0.10);
+    --shadow-lg: 0 28px 70px rgba(123,110,246,0.22), 0 0 0 1px rgba(0,0,0,0.04);
+    --transition: 0.32s cubic-bezier(0.34, 1.56, 0.64, 1);
+    --font: 'Nunito', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-display: 'Fredoka', 'Nunito', -apple-system, sans-serif;
     --font-mono: 'SF Mono', SFMono-Regular, ui-monospace, Menlo, monospace;
+}
+
+/* Rounded, friendly display font for all headings */
+.sidebar-name,
+.profile-info h2,
+.overview-card h2,
+.role-card h2,
+.skills-card h2,
+.education-card h2,
+.about-card h2,
+.contact-card h2,
+.media-gallery h4,
+.timeline-role {
+    font-family: var(--font-display);
+    letter-spacing: 0 !important;
+    font-weight: 600;
 }
 
 * {
@@ -46,6 +67,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 
 /* ============================================
    Sidebar
@@ -195,13 +217,17 @@ body {
     letter-spacing: -0.01em;
 }
 
+.download-btn {
+    box-shadow: 0 6px 16px rgba(255,90,95,0.32);
+}
+
 .download-btn:hover {
     background: var(--accent-hover);
-    transform: scale(1.02);
+    transform: scale(1.05) rotate(-1.5deg);
 }
 
 .download-btn:active {
-    transform: scale(0.98);
+    transform: scale(0.96);
 }
 
 .sidebar-location {
@@ -261,7 +287,12 @@ body {
     position: relative;
     overflow: hidden;
     cursor: grab;
-    background: var(--bg);
+    background:
+        radial-gradient(circle at 18% 22%, rgba(255,193,69,0.20), transparent 42%),
+        radial-gradient(circle at 82% 18%, rgba(56,182,255,0.18), transparent 40%),
+        radial-gradient(circle at 72% 82%, rgba(31,200,169,0.18), transparent 42%),
+        radial-gradient(circle at 28% 80%, rgba(255,90,95,0.16), transparent 44%),
+        var(--bg);
 }
 
 .canvas-area:active {
@@ -321,15 +352,19 @@ body {
 
 .node:hover .node-shape {
     border-color: var(--accent);
-    box-shadow: 0 2px 12px rgba(0,113,227,0.2);
+    box-shadow: 0 6px 20px rgba(255,90,95,0.32);
+}
+
+.node:hover {
+    transform: translate(-50%, -50%) scale(1.1) rotate(-3deg);
 }
 
 .node.center .node-shape {
     width: 76px;
     height: 76px;
-    background: linear-gradient(135deg, #0071e3, #5856d6);
+    background: linear-gradient(135deg, #ff5a5f, #ffc145 55%, #7b6ef6);
     border: 3px solid white;
-    box-shadow: 0 8px 30px rgba(0,113,227,0.35);
+    box-shadow: 0 12px 34px rgba(255,90,95,0.40);
 }
 
 .center-avatar {
@@ -408,11 +443,21 @@ body {
 
 @keyframes pulse {
     0%, 100% {
-        box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4);
+        box-shadow: 0 0 0 0 rgba(255, 90, 95, 0.45);
     }
     50% {
-        box-shadow: 0 0 0 10px rgba(220, 38, 38, 0);
+        box-shadow: 0 0 0 12px rgba(255, 90, 95, 0);
     }
+}
+
+/* Gentle bob on the centre node for personality */
+.node.center .node-shape {
+    animation: bob 4s ease-in-out infinite;
+}
+
+@keyframes bob {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
 }
 
 /* ============================================
@@ -591,7 +636,7 @@ body {
 
 .cv-download-btn:hover {
     background: var(--accent);
-    transform: scale(1.02);
+    transform: scale(1.04) rotate(-1deg);
 }
 
 .profile-meta {
@@ -1322,3 +1367,55 @@ a.contact-item:hover {
 .lightbox-close:hover {
     opacity: 1;
 }
+
+/* ============================================
+   Playful tag colours — cycle through the palette
+   ============================================ */
+
+.profile-tags .tag,
+.skill-tags .skill-tag,
+.interest-tags span {
+    border: none;
+    font-weight: 700;
+    transition: transform var(--transition), background var(--transition), color var(--transition);
+}
+
+.profile-tags .tag:nth-child(6n+1),
+.skill-tags .skill-tag:nth-child(6n+1),
+.interest-tags span:nth-child(6n+1) { background: #ffe4e1; color: #e23744; }
+.profile-tags .tag:nth-child(6n+2),
+.skill-tags .skill-tag:nth-child(6n+2),
+.interest-tags span:nth-child(6n+2) { background: #fff1cc; color: #c98a00; }
+.profile-tags .tag:nth-child(6n+3),
+.skill-tags .skill-tag:nth-child(6n+3),
+.interest-tags span:nth-child(6n+3) { background: #d6f7f0; color: #119d85; }
+.profile-tags .tag:nth-child(6n+4),
+.skill-tags .skill-tag:nth-child(6n+4),
+.interest-tags span:nth-child(6n+4) { background: #e6e3fe; color: #5b4ed6; }
+.profile-tags .tag:nth-child(6n+5),
+.skill-tags .skill-tag:nth-child(6n+5),
+.interest-tags span:nth-child(6n+5) { background: #d9efff; color: #1c8fd6; }
+.profile-tags .tag:nth-child(6n+6),
+.skill-tags .skill-tag:nth-child(6n+6),
+.interest-tags span:nth-child(6n+6) { background: #ffe3d3; color: #e07b1a; }
+
+.profile-tags .tag:hover,
+.skill-tags .skill-tag:hover,
+.interest-tags span:hover {
+    transform: translateY(-2px) rotate(-2deg) scale(1.05);
+}
+
+/* Make card hovers warm instead of cold blue, and bouncier */
+.skill-tag:hover { border-color: transparent; }
+.stat:hover,
+.edu-item:hover,
+.about-section:hover { background: var(--accent-light); }
+a.contact-item:hover { border-color: var(--accent); background: var(--accent-light); }
+
+/* Friendly contact / education icon chips */
+.contact-icon { background: linear-gradient(135deg, #ffe4e1, #fff1cc); }
+.edu-badge { background: linear-gradient(135deg, var(--accent), var(--grape)); }
+
+/* Modal gets a chunkier, friendlier frame */
+.modal { border-radius: var(--radius); }
+.role-badge { font-weight: 700; }

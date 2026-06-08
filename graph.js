@@ -277,8 +277,8 @@ class GraphEngine {
             this.ctx.beginPath();
             this.ctx.moveTo(src.x, src.y);
             this.ctx.lineTo(tgt.x, tgt.y);
-            this.ctx.strokeStyle = isRoleEdge ? 'rgba(203,213,225,0.45)' : 'rgba(148,163,184,0.5)';
-            this.ctx.lineWidth = isRoleEdge ? 0.8 : 1.2;
+            this.ctx.strokeStyle = isRoleEdge ? 'rgba(255,159,28,0.35)' : 'rgba(255,90,95,0.40)';
+            this.ctx.lineWidth = isRoleEdge ? 1 : 1.6;
             this.ctx.stroke();
         });
     }
