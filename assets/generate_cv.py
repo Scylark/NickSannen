@@ -129,7 +129,7 @@ story.append(Paragraph(
 # -- Career --
 section('CAREER HIGHLIGHTS')
 
-role('Independent Gravel Project', 'Founder / CEO', '2026-Present')
+role('Foodmaker X Gravel King', 'Founder &amp; GM', '2026-Present')
 context('Founded and built a new professional gravel team from scratch, taking full ownership across strategy, commercial, content and sport.')
 bullet('Led all commercial partnerships, securing and managing collaborations with multiple international brands.')
 bullet('Developed and executed the full content and communication strategy, covering storytelling, announcements and brand positioning.')

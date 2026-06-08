@@ -30,7 +30,7 @@ const RESUME_DATA = {
         { id: "contact",    label: "Contact",    type: "category", icon: "□", color: "#1e293b", angle: 260, distance: 1 },
 
         // -- Experience sub-nodes (newest first) --
-        { id: "role-1", label: "Independent Gravel", sublabel: "2026–Present", type: "role", parent: "experience", order: 1, icon: "◆", color: "#059669" },
+        { id: "role-1", label: "Foodmaker X Gravel King", sublabel: "2026–Present", type: "role", parent: "experience", order: 1, icon: "◆", color: "#059669" },
         { id: "role-2", label: "Classified x Rose",  sublabel: "2023–2026",    type: "role", parent: "experience", order: 2, icon: "◆", color: "#7c3aed" },
         { id: "role-3", label: "Classified",         sublabel: "2021–2023",    type: "role", parent: "experience", order: 3, icon: "◆", color: "#2563eb" },
         { id: "role-4", label: "Paul Sannen bv",     sublabel: "2008–2021",    type: "role", parent: "experience", order: 4, icon: "◆", color: "#d97706" },
@@ -67,7 +67,7 @@ const RESUME_DATA = {
                         <div class="profile-info">
                             <h2>Nick Sannen</h2>
                             <p class="profile-title">Commercial & Partnerships Professional</p>
-                            <p class="profile-creds">Founder, Classified x Rose & Independent Gravel Project</p>
+                            <p class="profile-creds">Founder & GM, Foodmaker X Gravel King · Founder, Classified x Rose</p>
                         </div>
                     </div>
                     <p class="profile-bio">Internationally experienced commercial professional with a strong background in partnership management, high-value sales and distributor development. Over fifteen years connecting brands, athletes and commercial opportunities across cycling and motorsport, including founding and building two professional gravel teams from scratch.</p>
@@ -98,8 +98,8 @@ const RESUME_DATA = {
                     <p class="overview-intro">Click on individual role nodes to explore each position in detail.</p>
                     <div class="timeline">
                         <div class="timeline-item current">
-                            <span class="timeline-role">Founder / CEO</span>
-                            <span class="timeline-company">Independent Gravel Project</span>
+                            <span class="timeline-role">Founder & GM</span>
+                            <span class="timeline-company">Foodmaker X Gravel King</span>
                             <span class="timeline-date">2026–Present</span>
                         </div>
                         <div class="timeline-item">
@@ -133,8 +133,8 @@ const RESUME_DATA = {
         },
 
         "role-1": {
-            title: "Independent Gravel Project",
-            subtitle: "Founder / CEO · 2026–Present",
+            title: "Foodmaker X Gravel King",
+            subtitle: "Founder & GM · 2026–Present",
             type: "role",
             color: "#059669",
             industry: "Pro Cycling",
@@ -144,8 +144,8 @@ const RESUME_DATA = {
                         <div class="role-badge" style="background: #059669">Pro Cycling</div>
                         <span class="role-status active">Current</span>
                     </div>
-                    <h2>Founder / CEO</h2>
-                    <h3>Independent Gravel Project · 2026–Present</h3>
+                    <h2>Founder & GM</h2>
+                    <h3>Foodmaker X Gravel King · 2026–Present</h3>
                     <p class="role-context">Founded and built a new professional gravel team from scratch, taking full ownership across strategy, commercial, content and sport.</p>
 
                     <div class="achievements">
@@ -162,7 +162,7 @@ const RESUME_DATA = {
 
                     <div class="media-gallery">
                         <h4>Team Launch & Activations</h4>
-                        <p class="gallery-description" style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Founder-led launch films and partner activations for the new gravel project.</p>
+                        <p class="gallery-description" style="font-size: 14px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Founder-led launch films and partner activations for the new gravel project.</p>
                         <div class="gallery-grid">
                             <div class="gallery-item" data-type="video" data-src="assets/role-1/launch-foodmaker-gravelking.mp4">
                                 <video src="assets/role-1/launch-foodmaker-gravelking.mp4" muted preload="metadata" poster="assets/thumbs/role-1-launch-foodmaker-gravelking.jpg"></video>
@@ -214,7 +214,7 @@ const RESUME_DATA = {
 
                     <div class="media-gallery">
                         <h4>Team Launch & Brand Films</h4>
-                        <p class="gallery-description" style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Launch films, athlete stories and brand activations from the Classified x Rose gravel team, including the Shimano integration and rider features.</p>
+                        <p class="gallery-description" style="font-size: 14px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Launch films, athlete stories and brand activations from the Classified x Rose gravel team, including the Shimano integration and rider features.</p>
                         <div class="gallery-grid">
                             <div class="gallery-item" data-type="video" data-src="assets/role-2/rose-trailer.mp4">
                                 <video src="assets/role-2/rose-trailer.mp4" muted preload="metadata" poster="assets/thumbs/role-2-rose-trailer.jpg"></video>
@@ -290,7 +290,7 @@ const RESUME_DATA = {
 
                     <div class="media-gallery">
                         <h4>Race Support & Event Content</h4>
-                        <p class="gallery-description" style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Race support reels, live event content and activations produced across the 2024 and 2025 seasons.</p>
+                        <p class="gallery-description" style="font-size: 14px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Race support reels, live event content and activations produced across the 2024 and 2025 seasons.</p>
                         <div class="gallery-grid">
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/reel-2024.mp4">
                                 <video src="assets/role-3/reel-2024.mp4" muted preload="metadata" poster="assets/thumbs/role-3-reel-2024.jpg"></video>
