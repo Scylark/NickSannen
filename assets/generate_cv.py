@@ -109,10 +109,11 @@ story.append(Paragraph('Nick Sannen', styles['CVName']))
 story.append(Paragraph('Laagland 28, 2450 Meerhout, Belgium - +32 495 63 01 46 - nicksannen@hotmail.com', styles['CVContact']))
 story.append(Paragraph(
     'Internationally experienced commercial professional with a strong background in partnership '
-    'management, high-value sales and distributor development. Over fifteen years connecting brands, '
-    'athletes and commercial opportunities across cycling and motorsport, including founding and building '
-    'two professional gravel teams from scratch. A strategic relationship builder with an entrepreneurial '
-    'mindset, effective across marketing, sales and operations, and most at home with full ownership of a project.',
+    'management, high-value sales and distributor development. A career spent at the top of cycling and '
+    'motorsport, from right-hand to a MotoGP World Champion and to one of Belgium&#39;s greatest cyclists, '
+    'through ultra-premium sales, to founding and building two professional gravel teams from scratch. A '
+    'strategic relationship builder with an entrepreneurial mindset, effective across marketing, sales and '
+    'operations, and most at home with full ownership of a project.',
     styles['CVSummary']
 ))
 
@@ -130,48 +131,54 @@ story.append(Paragraph(
 section('CAREER HIGHLIGHTS')
 
 role('Foodmaker X Gravel King', 'Founder &amp; GM', '2026-Present')
-context('Founded and built a new professional gravel team from scratch, taking full ownership across strategy, commercial, content and sport.')
-bullet('Led all commercial partnerships, securing and managing collaborations with multiple international brands.')
-bullet('Developed and executed the full content and communication strategy, covering storytelling, announcements and brand positioning.')
-bullet('Managed rider recruitment and contracts, building a competitive and professional team structure.')
-bullet('Integrated an existing cycling community, TNS, into the team, increasing visibility and delivering measurable value for partners.')
-bullet('Owned overall strategy, budget allocation and the long-term development of the project.')
+context('Founder and general manager of a professional gravel team built from a blank sheet, with end-to-end accountability for commercial, brand, roster and race programme.')
+bullet('Created the team from nothing and runs it day to day, accountable for strategy, commercial, content, sport and budget.')
+bullet('Owns the full sponsor portfolio, securing and managing partnerships with international brands as their senior point of contact.')
+bullet('Directs the entire content and communication programme, from team storytelling and launch announcements to season-long brand positioning.')
+bullet('Leads rider recruitment and contract negotiation, building a competitive squad and the support structure around it.')
+bullet('Brought an established cycling community, TNS, into the team, converting an engaged audience into measurable reach and value for partners.')
 
 story.append(Spacer(1, 4))
 
 role('Classified x Rose', 'Team / Athlete Manager &amp; Founder', '2023-2026')
-context('Founded and built a professional gravel team from the ground up, overseeing all operational and sporting aspects while owning the commercial and brand side for Classified.')
-bullet('Managed athlete contracts, logistics, race planning and performance support.')
-bullet('Secured sponsorships and commercial partnerships, contributing directly to revenue growth and financial sustainability.')
-bullet('Led marketing and communications, driving visibility and credibility for the team.')
-bullet('Visited dealers and distributors to present the team concept, gather market feedback and strengthen distribution relationships.')
-bullet('Translated market insights into strategic actions in collaboration with marketing and product teams.')
+context('Founded and ran a professional gravel team for drivetrain brand Classified, owning it end to end across three seasons while acting as its commercial engine and lead brand ambassador.')
+bullet('Built the team from the ground up and managed every operational and sporting decision across three seasons.')
+bullet('Secured and managed the sponsorships and commercial partnerships that underpinned the team&#39;s financial stability and growth.')
+bullet('Owned athlete contracts, logistics, race planning and performance support as the riders&#39; primary manager.')
+bullet('Directed marketing and communications, building visibility and credibility with audiences, media and the trade.')
+bullet('Represented Classified to dealers and distributors and fed market intelligence back to the marketing and product teams.')
 
 story.append(Spacer(1, 4))
 
 role('Classified', 'Athlete Manager &amp; Event Manager', '2021-2023')
-context('Managed athlete relations and ran events, trade shows and activations end to end, owning on-site sales and distributor activation.')
-bullet('Acted as the main contact point for athletes, ensuring their needs were met and creating content opportunities aligned to brand strategy.')
-bullet('Organised events, trade shows and activations, from venue booking to full on-site execution.')
-bullet('Oversaw sales logistics and managed on-site sales operations during trade shows, ensuring commercial targets were met.')
-bullet('Supported distributor activation by aligning brand presence with local sales objectives.')
+context('Owned athlete relations and the full event and activation calendar for Classified, running the brand from the paddock through to the point of sale.')
+bullet('Single point of contact for the brand&#39;s athletes, turning the relationship into content and visibility aligned to brand strategy.')
+bullet('Planned and delivered events, trade shows and activations end to end, from venue booking to on-site execution.')
+bullet('Owned sales logistics and on-site sales operations at trade shows, consistently hitting commercial targets.')
+bullet('Drove distributor activation by aligning brand presence with local sales objectives in each market.')
 
 story.append(Spacer(1, 4))
 
 role('Paul Sannen bv', 'Manager / Partnerships &amp; Operations', '2008-2021')
-context('Led high-value commercial negotiations and long-term partnerships across elite motorsport and cycling, alongside ultra-premium vehicle sales.')
-bullet('Led commercial negotiations with international brands and private clients in elite motorsport and cycling environments.')
-bullet('Handled luxury vehicle sales in the ultra-high-end segment, with transactions exceeding EUR 500,000, built on trust-based relationship management.')
-bullet('Developed and maintained long-term B2B relationships with sponsors, partners and rights holders across multiple markets.')
-bullet('Negotiated partnership agreements and ensured contractual delivery and commercial performance.')
+context('Thirteen years running partnerships and ultra-premium sales for a business operating where elite motorsport, cycling and high-end automotive meet.')
+bullet('Led commercial negotiations with international brands and private clients, brokering partnerships across elite motorsport and cycling.')
+bullet('Sold luxury vehicles at the top of the market, handling individual transactions above EUR 500,000 on the strength of discreet, trust-based relationships.')
+bullet('Served as senior commercial contact for international stakeholders, aligning brand objectives with business opportunities.')
+bullet('Built and held long-term B2B relationships with sponsors, partners and rights holders across multiple markets for over a decade.')
 
 story.append(Spacer(1, 4))
 
-role('Nicky Hayden, MotoGP', 'Personal Assistant', '2011-2017')
-bullet('Supported a top-level MotoGP rider across customer relations and events.')
+role('Nicky Hayden, MotoGP', 'Personal Assistant to a MotoGP World Champion', '2011-2017')
+context('Six seasons as the trusted right-hand to MotoGP World Champion Nicky Hayden, inside the top tier of world motorcycle racing.')
+bullet('Managed the rider&#39;s schedule, logistics and commitments through demanding back-to-back race weekends across an international Grand Prix calendar.')
+bullet('Acted as front-line contact for sponsors, partners and VIP guests in the paddock, keeping high-value commercial relationships warm.')
+bullet('Represented the rider and his partners to customers and fans in a high-visibility, high-scrutiny environment.')
 
-role('Tom Boonen', 'Personal Assistant', '2010-2011')
-bullet('Provided personal assistance to one of Belgium\'s leading professional cyclists.')
+story.append(Spacer(1, 4))
+
+role('Tom Boonen', 'Personal Assistant to a Cycling Great', '2010-2011')
+context('Trusted personal support to Tom Boonen, a former world champion, multiple Classics winner and one of the biggest names in Belgian cycling.')
+bullet('Managed day-to-day commitments, schedule, logistics and access around a high-profile professional athlete through the racing season.')
 
 # -- Additional --
 section('ADDITIONAL')

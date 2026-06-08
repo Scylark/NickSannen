@@ -70,7 +70,7 @@ const RESUME_DATA = {
                             <p class="profile-creds">Founder & GM, Foodmaker X Gravel King · Founder, Classified x Rose</p>
                         </div>
                     </div>
-                    <p class="profile-bio">Internationally experienced commercial professional with a strong background in partnership management, high-value sales and distributor development. Over fifteen years connecting brands, athletes and commercial opportunities across cycling and motorsport, including founding and building two professional gravel teams from scratch.</p>
+                    <p class="profile-bio">Internationally experienced commercial professional with a strong background in partnership management, high-value sales and distributor development. A career spent at the top of cycling and motorsport, from right-hand to a MotoGP World Champion and to one of Belgium's greatest cyclists, to ultra-premium sales, to founding and building two professional gravel teams from scratch.</p>
                     <div class="profile-tags">
                         <span class="tag">Partnerships</span>
                         <span class="tag">Sponsorship</span>
@@ -146,17 +146,17 @@ const RESUME_DATA = {
                     </div>
                     <h2>Founder & GM</h2>
                     <h3>Foodmaker X Gravel King · 2026–Present</h3>
-                    <p class="role-context">Founded and built a new professional gravel team from scratch, taking full ownership across strategy, commercial, content and sport.</p>
+                    <p class="role-context">Founder and general manager of a professional gravel team built from a blank sheet. Holds end-to-end accountability for the whole operation, from the commercial model and brand to the roster and race programme.</p>
 
                     <div class="achievements">
                         <h4>Key Achievements</h4>
                         <ul>
-                            <li><strong>Full ownership.</strong> Founded and built a new gravel team from the ground up, taking responsibility across every area of the project.</li>
-                            <li><strong>Commercial partnerships.</strong> Led all commercial partnerships, securing and managing collaborations with multiple international brands.</li>
-                            <li><strong>Content and communication.</strong> Developed and executed the full content and communication strategy, covering storytelling, announcements and brand positioning.</li>
-                            <li><strong>Rider recruitment.</strong> Managed rider recruitment and contracts, building a competitive and professional team structure.</li>
-                            <li><strong>Community integration.</strong> Integrated an existing cycling community, TNS, into the team, increasing visibility and delivering measurable value for partners.</li>
-                            <li><strong>Strategy and budget.</strong> Owned overall strategy, budget allocation and the long-term development of the project.</li>
+                            <li><strong>Founder and GM.</strong> Created the team from nothing and runs it day to day, accountable for strategy, commercial, content, sport and budget under one roof.</li>
+                            <li><strong>Owns the sponsor portfolio.</strong> Secures and manages the full slate of commercial partnerships with international brands, acting as their senior point of contact and protecting the value they get back.</li>
+                            <li><strong>Sets the brand and content strategy.</strong> Directs the entire content and communication programme, from team storytelling and launch announcements to season-long brand positioning.</li>
+                            <li><strong>Builds the roster.</strong> Leads rider recruitment and contract negotiation, assembling a competitive squad and the professional support structure around it.</li>
+                            <li><strong>Turns community into commercial value.</strong> Brought an established cycling community, TNS, into the team, converting an engaged audience into measurable reach and value for partners.</li>
+                            <li><strong>Controls the budget.</strong> Owns budget allocation and the long-term roadmap, balancing sporting ambition against commercial sustainability.</li>
                         </ul>
                     </div>
 
@@ -198,17 +198,17 @@ const RESUME_DATA = {
                     </div>
                     <h2>Team / Athlete Manager & Founder</h2>
                     <h3>Classified x Rose · 2023–2026</h3>
-                    <p class="role-context">Founded and built a professional gravel team from the ground up, overseeing all operational and sporting aspects while owning the commercial and brand side for Classified.</p>
+                    <p class="role-context">Founded and ran a professional gravel team for drivetrain brand Classified, owning it end to end across three seasons while doubling as its commercial engine and lead brand ambassador.</p>
 
                     <div class="achievements">
                         <h4>Key Achievements</h4>
                         <ul>
-                            <li><strong>Founded the team.</strong> Built a professional gravel team from the ground up, overseeing all operational and sporting aspects.</li>
-                            <li><strong>Athlete management.</strong> Managed athlete contracts, logistics, race planning and performance support.</li>
-                            <li><strong>Sponsorship and partnerships.</strong> Secured sponsorships and commercial partnerships, contributing directly to revenue growth and financial sustainability.</li>
-                            <li><strong>Marketing and communications.</strong> Led marketing and communications, driving visibility and credibility for the team.</li>
-                            <li><strong>Commercial ambassador.</strong> Visited dealers and distributors to present the team concept, gather market feedback and strengthen distribution relationships.</li>
-                            <li><strong>Market insight.</strong> Translated market insights into strategic actions in collaboration with marketing and product teams.</li>
+                            <li><strong>Founded and led the team.</strong> Built a professional gravel team from the ground up and managed every operational and sporting decision across three seasons.</li>
+                            <li><strong>Primary athlete manager.</strong> Owned athlete contracts, logistics, race planning and performance support as the riders' main point of contact.</li>
+                            <li><strong>Drove the revenue.</strong> Secured and managed the sponsorships and commercial partnerships that underpinned the team's financial stability and growth.</li>
+                            <li><strong>Led marketing and communications.</strong> Directed the team's marketing and communications, building visibility and credibility with audiences, media and the trade.</li>
+                            <li><strong>Commercial ambassador for the brand.</strong> Represented Classified to dealers and distributors, presenting the team concept, gathering market feedback and strengthening distribution relationships across markets.</li>
+                            <li><strong>Closed the loop to product.</strong> Fed market intelligence back into the business, shaping strategic decisions alongside the marketing and product teams.</li>
                         </ul>
                     </div>
 
@@ -275,16 +275,16 @@ const RESUME_DATA = {
                     </div>
                     <h2>Athlete Manager & Event Manager</h2>
                     <h3>Classified · 2021–2023</h3>
-                    <p class="role-context">Managed athlete relations and ran events, trade shows and activations end to end, owning on-site sales and distributor activation for the brand.</p>
+                    <p class="role-context">Owned athlete relations and the full event and activation calendar for Classified, running the brand's presence from the paddock through to the point of sale.</p>
 
                     <div class="achievements">
                         <h4>Key Achievements</h4>
                         <ul>
-                            <li><strong>Athlete relations.</strong> Managed athlete relations and support, acting as the main contact point and ensuring their needs were met.</li>
-                            <li><strong>Content with athletes.</strong> Coordinated and created content opportunities with athletes, aligning brand strategy and visibility.</li>
-                            <li><strong>Events and activations.</strong> Organised events, trade shows and activations, from venue booking to full on-site execution.</li>
-                            <li><strong>On-site sales.</strong> Oversaw sales logistics at events and managed on-site sales operations during trade shows, ensuring commercial targets were met.</li>
-                            <li><strong>Distributor activation.</strong> Supported distributor activation by aligning brand presence with local sales objectives.</li>
+                            <li><strong>Single point of contact for athletes.</strong> Managed the brand's athlete relationships day to day, looking after their needs and turning the partnership into content and visibility aligned to brand strategy.</li>
+                            <li><strong>Ran the event calendar end to end.</strong> Planned and delivered events, trade shows and activations, from venue booking through to on-site execution.</li>
+                            <li><strong>Delivered commercial results on site.</strong> Owned sales logistics and on-site sales operations at trade shows and events, consistently hitting commercial targets.</li>
+                            <li><strong>Activated the distribution network.</strong> Drove distributor activation by aligning brand presence with local sales objectives in each market.</li>
+                            <li><strong>Built the content engine.</strong> Created content opportunities around athletes and events that fed the brand's wider marketing and visibility.</li>
                         </ul>
                     </div>
 
@@ -346,15 +346,15 @@ const RESUME_DATA = {
                     </div>
                     <h2>Manager / Partnerships & Operations</h2>
                     <h3>Paul Sannen bv · 2008–2021</h3>
-                    <p class="role-context">Led high-value commercial negotiations and long-term partnerships across elite motorsport and cycling, alongside ultra-premium vehicle sales.</p>
+                    <p class="role-context">Thirteen years running partnerships and ultra-premium sales for a business operating where elite motorsport, professional cycling and high-end automotive meet. The role that built Nick's commercial instinct and his network at the top of the sport.</p>
                     <div class="achievements">
                         <h4>Key Achievements</h4>
                         <ul>
-                            <li><strong>High-value negotiations.</strong> Led commercial negotiations with international brands and private clients, managing partnerships in elite motorsport and cycling environments.</li>
-                            <li><strong>Ultra-premium sales.</strong> Handled luxury vehicle sales in the premium and ultra-high-end segment, with transactions exceeding €500,000, built on trust-based relationship management and tailored client advisory.</li>
-                            <li><strong>International stakeholders.</strong> Acted as commercial point of contact for international stakeholders, aligning brand objectives with business opportunities.</li>
-                            <li><strong>Long-term B2B.</strong> Developed and maintained long-term B2B relationships with sponsors, partners and rights holders across multiple markets.</li>
-                            <li><strong>Contractual delivery.</strong> Negotiated partnership agreements and ensured contractual delivery and commercial performance.</li>
+                            <li><strong>Led high-stakes negotiation.</strong> Ran commercial negotiations with international brands and private clients, brokering partnerships across elite motorsport and cycling.</li>
+                            <li><strong>Closed at the top of the market.</strong> Sold luxury vehicles in the ultra-high-end segment, handling individual transactions above €500,000 on the strength of discreet, trust-based client relationships.</li>
+                            <li><strong>Senior commercial contact.</strong> Served as the point of contact for international stakeholders, aligning brand objectives with concrete business opportunities.</li>
+                            <li><strong>Held the long-term relationships.</strong> Built and maintained B2B relationships with sponsors, partners and rights holders across multiple markets over more than a decade.</li>
+                            <li><strong>Owned delivery.</strong> Negotiated partnership agreements and carried them through to contractual delivery and commercial performance.</li>
                         </ul>
                     </div>
                 </div>
@@ -372,14 +372,17 @@ const RESUME_DATA = {
                     <div class="role-header">
                         <div class="role-badge" style="background: #dc2626">Motorsport</div>
                     </div>
-                    <h2>Personal Assistant</h2>
+                    <h2>Personal Assistant to a MotoGP World Champion</h2>
                     <h3>Nicky Hayden, MotoGP · 2011–2017</h3>
-                    <p class="role-context">A long-running role inside the MotoGP paddock, supporting a top-level rider across customer relations and events.</p>
+                    <p class="role-context">Six seasons as the trusted right-hand to MotoGP World Champion Nicky Hayden, operating inside the top tier of world motorcycle racing and across an international Grand Prix calendar. A front-row education in performance, pressure and how elite sponsorship really works.</p>
                     <div class="achievements">
                         <h4>Key Achievements</h4>
                         <ul>
-                            <li><strong>Customer relations.</strong> Acted as personal assistant to MotoGP rider Nicky Hayden, managing customer relations and day-to-day commitments.</li>
-                            <li><strong>Events.</strong> Supported appearances and events across the racing calendar.</li>
+                            <li><strong>Right-hand to a world champion.</strong> Personal assistant to a MotoGP World Champion, managing his schedule, logistics and commitments through demanding back-to-back race weekends.</li>
+                            <li><strong>Sponsor and VIP relations.</strong> Front-line contact for sponsors, partners and VIP guests in the paddock, protecting the rider's time while keeping high-value commercial relationships warm.</li>
+                            <li><strong>Customer and fan relations.</strong> Represented the rider and his partners to customers and fans in a high-visibility, high-scrutiny environment.</li>
+                            <li><strong>Events and appearances.</strong> Coordinated appearances, events and activations around the international race calendar, from setup through to delivery.</li>
+                            <li><strong>International logistics under pressure.</strong> Kept a complex travel and commitment schedule running across countries and time zones, season after season.</li>
                         </ul>
                     </div>
                 </div>
@@ -397,13 +400,14 @@ const RESUME_DATA = {
                     <div class="role-header">
                         <div class="role-badge" style="background: #0891b2">Pro Cycling</div>
                     </div>
-                    <h2>Personal Assistant</h2>
+                    <h2>Personal Assistant to a Cycling Great</h2>
                     <h3>Tom Boonen · 2010–2011</h3>
-                    <p class="role-context">Supported professional cyclist Tom Boonen as a personal assistant across day-to-day commitments.</p>
+                    <p class="role-context">Trusted personal support to Tom Boonen, a former world champion, multiple Classics winner and one of the biggest names Belgian cycling has produced.</p>
                     <div class="achievements">
                         <h4>Key Achievements</h4>
                         <ul>
-                            <li><strong>Rider support.</strong> Provided personal assistance to one of Belgium's leading professional cyclists, handling logistics and commitments around the racing season.</li>
+                            <li><strong>Support to a superstar athlete.</strong> Personal assistant to a former world road race champion and multiple Monument winner, managing day-to-day commitments through the racing season.</li>
+                            <li><strong>Logistics and access.</strong> Handled the schedule, logistics and access around a high-profile public figure, keeping commitments and relationships running smoothly.</li>
                         </ul>
                     </div>
                 </div>
@@ -516,7 +520,7 @@ const RESUME_DATA = {
                     <div class="about-sections">
                         <div class="about-section">
                             <h4>From the paddock to the peloton</h4>
-                            <p>Nick's career began alongside elite athletes, working as a personal assistant to MotoGP rider Nicky Hayden and Belgian cycling great Tom Boonen. From there he moved into high-value commercial roles in premium automotive and motorsport, then founded and built two professional gravel teams from scratch. Belgian, based in Meerhout.</p>
+                            <p>Nick's career started at the very top of two sports, as the trusted right-hand to MotoGP World Champion Nicky Hayden and to Belgian Classics legend Tom Boonen. Working that close to world-class athletes taught him how performance, pressure and commercial partnership really fit together. He carried that into high-value roles in premium automotive and motorsport, and then into founding and building two professional gravel teams from the ground up. Belgian, based in Meerhout.</p>
                         </div>
                         <div class="about-section">
                             <h4>Builder and operator</h4>
