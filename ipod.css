@@ -1,0 +1,522 @@
+/* ============================================
+   Faux iPod Classic Media Player
+   ============================================ */
+
+.ipod-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.ipod {
+    width: 280px;
+    background: linear-gradient(180deg, #e8e8e8 0%, #d4d4d4 4%, #c8c8c8 50%, #b8b8b8 96%, #a0a0a0 100%);
+    border-radius: 24px;
+    padding: 20px 20px 24px;
+    box-shadow:
+        0 1px 0 #fff inset,
+        0 -1px 0 #888 inset,
+        0 8px 32px rgba(0,0,0,0.25),
+        0 2px 8px rgba(0,0,0,0.15);
+    position: relative;
+    user-select: none;
+}
+
+/* Screen */
+.ipod-screen {
+    width: 100%;
+    height: 200px;
+    background: #1a1a2e;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    box-shadow:
+        0 1px 3px rgba(0,0,0,0.4) inset,
+        0 0 0 1px rgba(0,0,0,0.2);
+}
+
+.ipod-screen-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Screen header bar */
+.ipod-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    background: linear-gradient(180deg, #4a4a6a 0%, #2a2a4a 100%);
+    font-size: 10px;
+    color: #ccc;
+    font-family: 'Inter', sans-serif;
+    flex-shrink: 0;
+}
+
+.ipod-header-title {
+    font-weight: 600;
+    color: #fff;
+    font-size: 11px;
+}
+
+.ipod-battery {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.ipod-battery-icon {
+    width: 18px;
+    height: 9px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    position: relative;
+    padding: 1px;
+}
+
+.ipod-battery-icon::after {
+    content: '';
+    position: absolute;
+    right: -3px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 5px;
+    background: #aaa;
+    border-radius: 0 1px 1px 0;
+}
+
+.ipod-battery-fill {
+    width: 75%;
+    height: 100%;
+    background: #4ade80;
+    border-radius: 1px;
+}
+
+/* Now Playing view */
+.ipod-now-playing {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    gap: 6px;
+}
+
+.ipod-album-art {
+    width: 90px;
+    height: 90px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #1e293b, #334155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.ipod-album-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ipod-track-info {
+    text-align: center;
+    color: #fff;
+    min-height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ipod-track-title {
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 220px;
+}
+
+.ipod-track-artist {
+    font-size: 10px;
+    color: #94a3b8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 220px;
+}
+
+/* Progress bar */
+.ipod-progress {
+    width: 100%;
+    padding: 0 12px;
+    flex-shrink: 0;
+}
+
+.ipod-progress-bar {
+    width: 100%;
+    height: 3px;
+    background: #334155;
+    border-radius: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ipod-progress-fill {
+    height: 100%;
+    background: #60a5fa;
+    border-radius: 2px;
+    width: 0%;
+    transition: width 0.3s linear;
+}
+
+.ipod-time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+    color: #64748b;
+    margin-top: 2px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Track list view */
+.ipod-tracklist {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.ipod-tracklist::-webkit-scrollbar {
+    width: 3px;
+}
+
+.ipod-tracklist::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 3px;
+}
+
+.ipod-track-item {
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    cursor: pointer;
+    transition: background 0.15s;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    gap: 8px;
+}
+
+.ipod-track-item:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+.ipod-track-item.active {
+    background: rgba(96, 165, 250, 0.15);
+}
+
+.ipod-track-item-number {
+    font-size: 10px;
+    color: #64748b;
+    width: 16px;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    flex-shrink: 0;
+}
+
+.ipod-track-item.active .ipod-track-item-number {
+    color: #60a5fa;
+}
+
+.ipod-track-item-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.ipod-track-item-title {
+    font-size: 11px;
+    color: #e2e8f0;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ipod-track-item.active .ipod-track-item-title {
+    color: #60a5fa;
+}
+
+.ipod-track-item-artist {
+    font-size: 9px;
+    color: #64748b;
+}
+
+.ipod-track-item-duration {
+    font-size: 9px;
+    color: #64748b;
+    font-family: 'JetBrains Mono', monospace;
+    flex-shrink: 0;
+}
+
+/* Playing indicator */
+.ipod-track-item.active .ipod-track-item-number::after {
+    content: '♪';
+    color: #60a5fa;
+}
+
+.ipod-track-item.active .ipod-track-item-number span {
+    display: none;
+}
+
+/* Click wheel */
+.ipod-wheel {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #f0f0f0 0%, #d8d8d8 50%, #c0c0c0 100%);
+    margin: 20px auto 0;
+    position: relative;
+    box-shadow:
+        0 1px 0 #fff inset,
+        0 -1px 2px rgba(0,0,0,0.15) inset,
+        0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.ipod-wheel-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #f5f5f5 0%, #e0e0e0 100%);
+    box-shadow:
+        0 1px 0 #fff inset,
+        0 -1px 2px rgba(0,0,0,0.1) inset,
+        0 2px 6px rgba(0,0,0,0.08);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: background 0.15s;
+}
+
+.ipod-wheel-center:hover {
+    background: linear-gradient(180deg, #fff 0%, #e8e8e8 100%);
+}
+
+.ipod-wheel-center:active {
+    background: linear-gradient(180deg, #e0e0e0 0%, #d0d0d0 100%);
+}
+
+/* Wheel labels */
+.ipod-wheel-label {
+    position: absolute;
+    font-size: 10px;
+    font-weight: 600;
+    color: #666;
+    z-index: 1;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: color 0.15s;
+}
+
+.ipod-wheel-label:hover {
+    color: #333;
+}
+
+.ipod-wheel-label:active {
+    color: #000;
+}
+
+.ipod-wheel-label.top {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ipod-wheel-label.bottom {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ipod-wheel-label.left {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ipod-wheel-label.right {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Play/pause icon in wheel labels */
+.ipod-wheel-label.bottom .play-icon {
+    display: inline-flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.ipod-wheel-label.bottom .play-icon::before {
+    content: '▶︎';
+    font-size: 10px;
+}
+
+.ipod-wheel-label.bottom .play-icon::after {
+    content: '❚❚';
+    font-size: 7px;
+    letter-spacing: -1px;
+}
+
+/* View toggle */
+.ipod-view-toggle {
+    font-size: 10px;
+    color: #64748b;
+    text-align: center;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.ipod-view-toggle:hover {
+    color: #e2e8f0;
+}
+
+/* Empty state */
+.ipod-empty {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #64748b;
+    gap: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.ipod-empty-icon {
+    font-size: 32px;
+    opacity: 0.5;
+}
+
+.ipod-empty-text {
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.ipod-empty-hint {
+    font-size: 9px;
+    color: #475569;
+}
+
+/* Spinning animation for album art when playing */
+@keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.ipod-album-art.spinning {
+    animation: spin-slow 8s linear infinite;
+    border-radius: 50%;
+}
+
+/* No-select protection */
+.ipod * {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* ============================================
+   Floating Mini-Player
+   ============================================ */
+
+.mini-player {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 400;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    background: rgba(29, 29, 31, 0.92);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-radius: 14px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    color: white;
+    transform: translateY(80px);
+    opacity: 0;
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: default;
+    max-width: 320px;
+}
+
+.mini-player.visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.mini-player-info {
+    flex: 1;
+    min-width: 0;
+    cursor: pointer;
+}
+
+.mini-player-title {
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: -0.01em;
+}
+
+.mini-player-artist {
+    font-size: 10px;
+    color: rgba(255,255,255,0.6);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mini-player-controls {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+.mini-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 4px 6px;
+    border-radius: 6px;
+    transition: background 0.15s ease;
+    line-height: 1;
+}
+
+.mini-btn:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+.mini-btn.mini-play {
+    font-size: 14px;
+    padding: 4px 8px;
+}

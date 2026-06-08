@@ -1,0 +1,19 @@
+.DS_Store
+**/.DS_Store
+
+# Video files - force-add with `git add -f` when you intentionally want
+# to commit one (GitHub Pages has a 100MB per-file cap; compress with
+# ffmpeg before adding).
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.avi
+*.mkv
+*.webm
+
+# Editor / system
+.claude/
+.idea/
+.vscode/
+*.swp

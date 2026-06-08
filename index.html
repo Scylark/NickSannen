@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Sannen — Interactive Resume</title>
+    <!-- Using system fonts: Helvetica Neue, Helvetica, Arial -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ipod.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img class="sidebar-avatar" src="assets/profile.jpg" alt="Nick Sannen" />
+            <h1 class="sidebar-name">Nick Sannen</h1>
+            <span class="sidebar-credentials">Partnerships &amp; Commercial</span>
+        </div>
+        <p class="sidebar-tagline">Internationally experienced commercial professional. Partnership management, high-value sales and team building across cycling and motorsport.</p>
+        <div class="sidebar-divider"></div>
+        <ul class="sidebar-nav">
+            <li><button class="nav-btn" data-target="experience"><span class="nav-icon">◆</span> Experience <span class="nav-arrow">→</span></button></li>
+            <li><button class="nav-btn" data-target="skills"><span class="nav-icon">▲</span> Skills <span class="nav-arrow">→</span></button></li>
+            <li><button class="nav-btn" data-target="education"><span class="nav-icon">○</span> Education <span class="nav-arrow">→</span></button></li>
+            <li><button class="nav-btn" data-target="about"><span class="nav-icon">△</span> About <span class="nav-arrow">→</span></button></li>
+            <li><button class="nav-btn" data-target="contact"><span class="nav-icon">□</span> Contact <span class="nav-arrow">→</span></button></li>
+        </ul>
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-footer">
+            <button class="download-btn" id="downloadPdf">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v10M8 11L4 7M8 11l4-4M2 14h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Download PDF
+            </button>
+            <div class="sidebar-location">
+                <span class="location-dot"></span>
+                Meerhout, Belgium
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile menu toggle -->
+    <button class="mobile-menu-toggle" id="mobileToggle">
+        <span></span><span></span><span></span>
+    </button>
+
+    <!-- Main Canvas Area -->
+    <main class="canvas-area" id="canvasArea">
+        <canvas id="graphCanvas"></canvas>
+        <div class="nodes-container" id="nodesContainer"></div>
+    </main>
+
+    <!-- Detail Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modal">
+            <div class="modal-dots">
+                <span class="dot dot-red" id="dotClose" title="Close"></span>
+                <span class="dot dot-yellow" id="dotMinimize" title="Minimize"></span>
+                <span class="dot dot-green" id="dotMaximize" title="Maximize"></span>
+            </div>
+            <div class="modal-content" id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="ipod.js"></script>
+    <script src="graph.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
