@@ -59,7 +59,7 @@ class GraphEngine {
             ...data.center,
             x: centerX,
             y: cy,
-            radius: 36
+            radius: 54
         });
 
         // Category nodes — place at defined angles
@@ -72,7 +72,7 @@ class GraphEngine {
                 ...n,
                 x: centerX + Math.cos(angle) * catDist,
                 y: cy + Math.sin(angle) * catDist,
-                radius: 24
+                radius: 36
             });
         });
 
@@ -80,18 +80,18 @@ class GraphEngine {
         const roles = data.nodes.filter(n => n.type === 'role').sort((a, b) => (a.order || 0) - (b.order || 0));
         const expNode = this.nodeData.find(n => n.id === 'experience');
 
-        const roleStartX = expNode ? expNode.x + 160 : cx + 200;
-        const roleStartY = cy - (roles.length - 1) * 32; // center the stack vertically
-        const roleSpacingY = 64; // vertical gap between roles
+        const roleStartX = expNode ? expNode.x + 200 : cx + 240;
+        const roleStartY = cy - (roles.length - 1) * 44; // center the stack vertically
+        const roleSpacingY = 88; // vertical gap between roles
 
         roles.forEach((n, i) => {
             // Stagger X slightly for visual interest (alternate offset)
-            const xOffset = (i % 2) * 20;
+            const xOffset = (i % 2) * 24;
             this.nodeData.push({
                 ...n,
                 x: roleStartX + xOffset,
                 y: roleStartY + i * roleSpacingY,
-                radius: 18
+                radius: 27
             });
         });
 
@@ -174,7 +174,7 @@ class GraphEngine {
             if (!expNode) return;
 
             // Desired vertical span centered on experience node
-            const spacing = 60;
+            const spacing = 84;
             const totalHeight = (roleNodes.length - 1) * spacing;
             const topY = expNode.y - totalHeight / 2;
 

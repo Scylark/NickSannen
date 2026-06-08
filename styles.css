@@ -336,15 +336,15 @@ body {
 }
 
 .node-shape {
-    width: 42px;
-    height: 42px;
+    width: 63px;
+    height: 63px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1.5px solid var(--border);
+    border: 2px solid var(--border);
     background: var(--bg-card);
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 19px;
     transition: all var(--transition);
     box-shadow: 0 1px 4px rgba(0,0,0,0.06);
     overflow: hidden;
@@ -360,8 +360,8 @@ body {
 }
 
 .node.center .node-shape {
-    width: 76px;
-    height: 76px;
+    width: 114px;
+    height: 114px;
     background: linear-gradient(135deg, #ff5a5f, #ffc145 55%, #7b6ef6);
     border: 3px solid white;
     box-shadow: 0 12px 34px rgba(255,90,95,0.40);
@@ -384,16 +384,16 @@ body {
 }
 
 .node.category .node-shape {
-    width: 48px;
-    height: 48px;
-    font-size: 15px;
+    width: 72px;
+    height: 72px;
+    font-size: 22px;
     background: var(--bg-card);
 }
 
 .node.role .node-shape {
-    width: 36px;
-    height: 36px;
-    font-size: 10px;
+    width: 54px;
+    height: 54px;
+    font-size: 15px;
 }
 
 .node-label {
