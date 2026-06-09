@@ -62,6 +62,10 @@ const RESUME_DATA = {
             type: "profile",
             content: `
                 <div class="profile-card">
+                    <div class="hero-video">
+                        <iframe src="https://www.youtube-nocookie.com/embed/7IyAHLVZsVc?rel=0" title="Rise of the Hawk, a Classified Cycling documentary" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <p class="hero-caption">Rise of the Hawk, a Classified Cycling documentary.</p>
                     <div class="profile-header">
                         <img class="profile-avatar-img" src="assets/profile.jpg" alt="Nick Sannen" />
                         <div class="profile-info">
