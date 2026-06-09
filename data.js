@@ -170,101 +170,101 @@ const RESUME_DATA = {
                         <p class="gallery-description" style="font-size: 14px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Launch film, team clips and photography from the Foodmaker X Gravel King project.</p>
                         <div class="gallery-grid">
                             <div class="gallery-item" data-type="video" data-src="assets/role-1/launch-foodmaker-gravelking.mp4">
-                                <video src="assets/role-1/launch-foodmaker-gravelking.mp4" muted preload="metadata" poster="assets/thumbs/role-1-launch-foodmaker-gravelking.jpg"></video>
+                                <img src="assets/thumbs/role-1-launch-foodmaker-gravelking.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Team Launch Film</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-1/foodmaker-clip.mp4">
-                                <video src="assets/role-1/foodmaker-clip.mp4" muted preload="metadata" poster="assets/thumbs/role-1-foodmaker-clip.jpg"></video>
+                                <img src="assets/thumbs/role-1-foodmaker-clip.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Team Clip</div>
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-1.jpg">
-                                <img src="assets/role-1/foodmaker-1.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-1-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-2.jpg">
-                                <img src="assets/role-1/foodmaker-2.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-2-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-3.jpg">
-                                <img src="assets/role-1/foodmaker-3.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-3-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-4.jpg">
-                                <img src="assets/role-1/foodmaker-4.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-4-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-5.jpg">
-                                <img src="assets/role-1/foodmaker-5.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-5-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-6.jpg">
-                                <img src="assets/role-1/foodmaker-6.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-6-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-7.jpg">
-                                <img src="assets/role-1/foodmaker-7.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-7-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-8.jpg">
-                                <img src="assets/role-1/foodmaker-8.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-8-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-9.jpg">
-                                <img src="assets/role-1/foodmaker-9.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-9-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-10.jpg">
-                                <img src="assets/role-1/foodmaker-10.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-10-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-11.jpg">
-                                <img src="assets/role-1/foodmaker-11.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-11-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-12.jpg">
-                                <img src="assets/role-1/foodmaker-12.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-12-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-13.jpg">
-                                <img src="assets/role-1/foodmaker-13.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-13-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-14.jpg">
-                                <img src="assets/role-1/foodmaker-14.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-14-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-15.jpg">
-                                <img src="assets/role-1/foodmaker-15.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-15-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-16.jpg">
-                                <img src="assets/role-1/foodmaker-16.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-16-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-17.jpg">
-                                <img src="assets/role-1/foodmaker-17.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-17-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-18.jpg">
-                                <img src="assets/role-1/foodmaker-18.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-18-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-19.jpg">
-                                <img src="assets/role-1/foodmaker-19.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-19-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-20.jpg">
-                                <img src="assets/role-1/foodmaker-20.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-20-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-21.jpg">
-                                <img src="assets/role-1/foodmaker-21.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-21-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-22.jpg">
-                                <img src="assets/role-1/foodmaker-22.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-22-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-23.jpg">
-                                <img src="assets/role-1/foodmaker-23.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-23-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-24.jpg">
-                                <img src="assets/role-1/foodmaker-24.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-24-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-25.jpg">
-                                <img src="assets/role-1/foodmaker-25.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-25-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-26.jpg">
-                                <img src="assets/role-1/foodmaker-26.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-26-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-27.jpg">
-                                <img src="assets/role-1/foodmaker-27.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-27-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-28.jpg">
-                                <img src="assets/role-1/foodmaker-28.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-28-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-1/foodmaker-29.jpg">
-                                <img src="assets/role-1/foodmaker-29.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-1-foodmaker-29-sm.jpg" alt="Foodmaker X Gravel King" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
@@ -305,42 +305,42 @@ const RESUME_DATA = {
                         <p class="gallery-description" style="font-size: 14px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Launch films, athlete stories and brand activations from the Classified x Rose gravel team, including the Shimano integration and rider features.</p>
                         <div class="gallery-grid">
                             <div class="gallery-item" data-type="video" data-src="assets/role-2/rose-trailer.mp4">
-                                <video src="assets/role-2/rose-trailer.mp4" muted preload="metadata" poster="assets/thumbs/role-2-rose-trailer.jpg"></video>
+                                <img src="assets/thumbs/role-2-rose-trailer.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Classified x Rose Trailer</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-2/rose-reel.mp4">
-                                <video src="assets/role-2/rose-reel.mp4" muted preload="metadata" poster="assets/thumbs/role-2-rose-reel.jpg"></video>
+                                <img src="assets/thumbs/role-2-rose-reel.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Team Launch Reel</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-2/shimano-integration.mp4">
-                                <video src="assets/role-2/shimano-integration.mp4" muted preload="metadata" poster="assets/thumbs/role-2-shimano-integration.jpg"></video>
+                                <img src="assets/thumbs/role-2-shimano-integration.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Shimano Integration</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-2/thomas-de-gendt.mp4">
-                                <video src="assets/role-2/thomas-de-gendt.mp4" muted preload="metadata" poster="assets/thumbs/role-2-thomas-de-gendt.jpg"></video>
+                                <img src="assets/thumbs/role-2-thomas-de-gendt.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Thomas De Gendt</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-2/philippe-gilbert-liege.mp4">
-                                <video src="assets/role-2/philippe-gilbert-liege.mp4" muted preload="metadata" poster="assets/thumbs/role-2-philippe-gilbert-liege.jpg"></video>
+                                <img src="assets/thumbs/role-2-philippe-gilbert-liege.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Philippe Gilbert, Liège</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-2/josie.mp4">
-                                <video src="assets/role-2/josie.mp4" muted preload="metadata" poster="assets/thumbs/role-2-josie.jpg"></video>
+                                <img src="assets/thumbs/role-2-josie.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Rider Feature</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-2/rose-velofolies.mp4">
-                                <video src="assets/role-2/rose-velofolies.mp4" muted preload="metadata" poster="assets/thumbs/role-2-rose-velofolies.jpg"></video>
+                                <img src="assets/thumbs/role-2-rose-velofolies.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Vélofollies Activation</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-2/rose-trailer-v1.mp4">
-                                <video src="assets/role-2/rose-trailer-v1.mp4" muted preload="metadata" poster="assets/thumbs/role-2-rose-trailer-v1.jpg"></video>
+                                <img src="assets/thumbs/role-2-rose-trailer-v1.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Trailer, Alternate Cut</div>
                             </div>
@@ -382,62 +382,62 @@ const RESUME_DATA = {
                         <p class="gallery-description" style="font-size: 14px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Trade show activations at Eurobike, plus race support reels and live event content produced across the seasons.</p>
                         <div class="gallery-grid">
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/eurobike.mp4">
-                                <video src="assets/role-3/eurobike.mp4" muted preload="metadata" poster="assets/thumbs/role-3-eurobike.jpg"></video>
+                                <img src="assets/thumbs/role-3-eurobike.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Eurobike</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/apero-eurobike.mp4">
-                                <video src="assets/role-3/apero-eurobike.mp4" muted preload="metadata" poster="assets/thumbs/role-3-apero-eurobike.jpg"></video>
+                                <img src="assets/thumbs/role-3-apero-eurobike.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Eurobike Apéro</div>
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-3/eurobike-photo-1.jpg">
-                                <img src="assets/role-3/eurobike-photo-1.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-3-eurobike-photo-1-sm.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-3/eurobike-photo-2.jpg">
-                                <img src="assets/role-3/eurobike-photo-2.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-3-eurobike-photo-2-sm.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-3/eurobike-photo-3.jpg">
-                                <img src="assets/role-3/eurobike-photo-3.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-3-eurobike-photo-3-sm.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-3/eurobike-photo-4.jpg">
-                                <img src="assets/role-3/eurobike-photo-4.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-3-eurobike-photo-4-sm.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-3/eurobike-photo-5.jpg">
-                                <img src="assets/role-3/eurobike-photo-5.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-3-eurobike-photo-5-sm.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/reel-2024.mp4">
-                                <video src="assets/role-3/reel-2024.mp4" muted preload="metadata" poster="assets/thumbs/role-3-reel-2024.jpg"></video>
+                                <img src="assets/thumbs/role-3-reel-2024.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Season Reel 2024</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/race-2024-jul.mp4">
-                                <video src="assets/role-3/race-2024-jul.mp4" muted preload="metadata" poster="assets/thumbs/role-3-race-2024-jul.jpg"></video>
+                                <img src="assets/thumbs/role-3-race-2024-jul.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Race Support, July 2024</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/race-2024-aug.mp4">
-                                <video src="assets/role-3/race-2024-aug.mp4" muted preload="metadata" poster="assets/thumbs/role-3-race-2024-aug.jpg"></video>
+                                <img src="assets/thumbs/role-3-race-2024-aug.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Race Support, August 2024</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/race-2025-2.mp4">
-                                <video src="assets/role-3/race-2025-2.mp4" muted preload="metadata" poster="assets/thumbs/role-3-race-2025-2.jpg"></video>
+                                <img src="assets/thumbs/role-3-race-2025-2.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Live Content 2025 · 1</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/race-2025-3.mp4">
-                                <video src="assets/role-3/race-2025-3.mp4" muted preload="metadata" poster="assets/thumbs/role-3-race-2025-3.jpg"></video>
+                                <img src="assets/thumbs/role-3-race-2025-3.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Live Content 2025 · 2</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/race-2025-4.mp4">
-                                <video src="assets/role-3/race-2025-4.mp4" muted preload="metadata" poster="assets/thumbs/role-3-race-2025-4.jpg"></video>
+                                <img src="assets/thumbs/role-3-race-2025-4.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Live Content 2025 · 3</div>
                             </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/race-2025-5.mp4">
-                                <video src="assets/role-3/race-2025-5.mp4" muted preload="metadata" poster="assets/thumbs/role-3-race-2025-5.jpg"></video>
+                                <img src="assets/thumbs/role-3-race-2025-5.jpg" alt="" loading="lazy" decoding="async">
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Live Content 2025 · 4</div>
                             </div>
@@ -476,7 +476,7 @@ const RESUME_DATA = {
                         <p class="gallery-description" style="font-size: 14px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">From the motorsport and high-end automotive years.</p>
                         <div class="gallery-grid">
                             <div class="gallery-item" data-type="image" data-src="assets/role-4/paul-1.jpg">
-                                <img src="assets/role-4/paul-1.jpg" alt="Paul Sannen, motorsport and premium automotive" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-4-paul-1-sm.jpg" alt="Paul Sannen, motorsport and premium automotive" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
@@ -513,28 +513,28 @@ const RESUME_DATA = {
                         <p class="gallery-description" style="font-size: 14px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Years spent alongside Nicky Hayden across the MotoGP calendar.</p>
                         <div class="gallery-grid">
                             <div class="gallery-item" data-type="image" data-src="assets/role-5/nicky-1.jpg">
-                                <img src="assets/role-5/nicky-1.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-5-nicky-1-sm.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-5/nicky-2.jpg">
-                                <img src="assets/role-5/nicky-2.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-5-nicky-2-sm.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-5/nicky-3.jpg">
-                                <img src="assets/role-5/nicky-3.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-5-nicky-3-sm.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-5/nicky-4.jpg">
-                                <img src="assets/role-5/nicky-4.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-5-nicky-4-sm.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-5/nicky-5.jpg">
-                                <img src="assets/role-5/nicky-5.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-5-nicky-5-sm.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-5/nicky-6.jpg">
-                                <img src="assets/role-5/nicky-6.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-5-nicky-6-sm.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-5/nicky-7.jpg">
-                                <img src="assets/role-5/nicky-7.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-5-nicky-7-sm.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-5/nicky-8.jpg">
-                                <img src="assets/role-5/nicky-8.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-5-nicky-8-sm.jpg" alt="With Nicky Hayden, MotoGP" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
@@ -568,13 +568,13 @@ const RESUME_DATA = {
                         <p class="gallery-description" style="font-size: 14px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">Supporting Tom Boonen through the racing season.</p>
                         <div class="gallery-grid">
                             <div class="gallery-item" data-type="image" data-src="assets/role-6/boonen-1.jpg">
-                                <img src="assets/role-6/boonen-1.jpg" alt="Alongside Tom Boonen" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-6-boonen-1-sm.jpg" alt="Alongside Tom Boonen" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-6/boonen-2.jpg">
-                                <img src="assets/role-6/boonen-2.jpg" alt="Alongside Tom Boonen" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-6-boonen-2-sm.jpg" alt="Alongside Tom Boonen" loading="lazy" decoding="async">
                             </div>
                             <div class="gallery-item" data-type="image" data-src="assets/role-6/boonen-3.jpg">
-                                <img src="assets/role-6/boonen-3.jpg" alt="Alongside Tom Boonen" loading="lazy" decoding="async">
+                                <img src="assets/thumbs/role-6-boonen-3-sm.jpg" alt="Alongside Tom Boonen" loading="lazy" decoding="async">
                             </div>
                         </div>
                     </div>
