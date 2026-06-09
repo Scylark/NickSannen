@@ -117,6 +117,15 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.overflow = '';
         document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
 
+        // Immediately stop any playing media so audio doesn't continue after close
+        modalContent.querySelectorAll('iframe').forEach(f => { f.src = 'about:blank'; });
+        modalContent.querySelectorAll('video').forEach(v => { try { v.pause(); } catch (e) {} });
+
+        // Clear the content after the fade-out so the embed is fully torn down
+        setTimeout(() => {
+            if (!modalOverlay.classList.contains('active')) modalContent.innerHTML = '';
+        }, 320);
+
         // Show mini-player if music is playing
         if (ipod.isPlaying) {
             ipod.showMiniPlayer();
