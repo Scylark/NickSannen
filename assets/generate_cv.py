@@ -150,7 +150,7 @@ bullet('Represented Classified to dealers and distributors and fed market intell
 
 story.append(Spacer(1, 4))
 
-role('Classified', 'Athlete Manager &amp; Event Manager', '2021-2023')
+role('Classified', 'Athlete Manager &amp; Event Manager', '2022-2026')
 context('Owned athlete relations and the full event and activation calendar for Classified, running the brand from the paddock through to the point of sale.')
 bullet('Single point of contact for the brand&#39;s athletes, turning the relationship into content and visibility aligned to brand strategy.')
 bullet('Planned and delivered events, trade shows and activations end to end, from venue booking to on-site execution.')
