@@ -7,19 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="ipod.css">
+    <link rel="stylesheet" href="styles.css?v=20260609">
+    <link rel="stylesheet" href="ipod.css?v=20260609">
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
     <!-- Sidebar Navigation -->
     <nav class="sidebar" id="sidebar">
-        <div class="sidebar-header">
-            <img class="sidebar-avatar" src="assets/profile.jpg" alt="Nick Sannen" />
+        <div class="sidebar-header" id="sidebarProfile" role="button" tabindex="0" title="Open profile">
+            <div class="sidebar-avatar-wrap">
+                <img class="sidebar-avatar" src="assets/profile.jpg" alt="Nick Sannen" />
+                <span class="sidebar-avatar-play">▶</span>
+            </div>
             <h1 class="sidebar-name">Nick Sannen</h1>
             <span class="sidebar-credentials">Partnerships &amp; Commercial</span>
         </div>
         <p class="sidebar-tagline">Internationally experienced commercial professional. Partnership management, high-value sales and team building across cycling and motorsport.</p>
+        <button class="watch-film-btn" id="watchFilmBtn">
+            <span class="wf-play">▶</span> Watch the film
+        </button>
         <div class="sidebar-divider"></div>
         <ul class="sidebar-nav">
             <li><button class="nav-btn" data-target="experience"><span class="nav-icon">◆</span> Experience <span class="nav-arrow">→</span></button></li>
@@ -64,9 +70,9 @@
         </div>
     </div>
 
-    <script src="data.js"></script>
-    <script src="ipod.js"></script>
-    <script src="graph.js"></script>
-    <script src="app.js"></script>
+    <script src="data.js?v=20260609"></script>
+    <script src="ipod.js?v=20260609"></script>
+    <script src="graph.js?v=20260609"></script>
+    <script src="app.js?v=20260609"></script>
 </body>
 </html>

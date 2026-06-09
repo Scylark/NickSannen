@@ -58,6 +58,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Profile / "Watch the film" entry points → open the centre (person) card
+    const openProfile = () => {
+        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+        sidebar.classList.remove('open');
+        openModal('person');
+    };
+    const watchBtn = document.getElementById('watchFilmBtn');
+    if (watchBtn) watchBtn.addEventListener('click', openProfile);
+    const sidebarProfile = document.getElementById('sidebarProfile');
+    if (sidebarProfile) {
+        sidebarProfile.addEventListener('click', openProfile);
+        sidebarProfile.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openProfile(); }
+        });
+    }
+
     // ----------------------------------------
     // Modal management
     // ----------------------------------------

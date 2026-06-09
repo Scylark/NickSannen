@@ -391,6 +391,21 @@ const RESUME_DATA = {
                                 <div class="gallery-play"></div>
                                 <div class="gallery-label">Eurobike Apéro</div>
                             </div>
+                            <div class="gallery-item" data-type="image" data-src="assets/role-3/eurobike-photo-1.jpg">
+                                <img src="assets/role-3/eurobike-photo-1.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
+                            </div>
+                            <div class="gallery-item" data-type="image" data-src="assets/role-3/eurobike-photo-2.jpg">
+                                <img src="assets/role-3/eurobike-photo-2.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
+                            </div>
+                            <div class="gallery-item" data-type="image" data-src="assets/role-3/eurobike-photo-3.jpg">
+                                <img src="assets/role-3/eurobike-photo-3.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
+                            </div>
+                            <div class="gallery-item" data-type="image" data-src="assets/role-3/eurobike-photo-4.jpg">
+                                <img src="assets/role-3/eurobike-photo-4.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
+                            </div>
+                            <div class="gallery-item" data-type="image" data-src="assets/role-3/eurobike-photo-5.jpg">
+                                <img src="assets/role-3/eurobike-photo-5.jpg" alt="Classified at Eurobike" loading="lazy" decoding="async">
+                            </div>
                             <div class="gallery-item" data-type="video" data-src="assets/role-3/reel-2024.mp4">
                                 <video src="assets/role-3/reel-2024.mp4" muted preload="metadata" poster="assets/thumbs/role-3-reel-2024.jpg"></video>
                                 <div class="gallery-play"></div>

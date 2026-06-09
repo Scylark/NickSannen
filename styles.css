@@ -1451,3 +1451,76 @@ a.contact-item:hover { border-color: var(--accent); background: var(--accent-lig
     margin: 0 0 16px;
     letter-spacing: -0.01em;
 }
+
+/* Clickable sidebar profile + "Watch the film" CTA */
+.sidebar-header[role="button"] {
+    cursor: pointer;
+    border-radius: 14px;
+    transition: transform var(--transition);
+}
+
+.sidebar-header[role="button"]:hover {
+    transform: translateY(-2px);
+}
+
+.sidebar-avatar-wrap {
+    position: relative;
+    display: block;
+}
+
+.sidebar-avatar-play {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    padding-left: 2px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 14px rgba(255,90,95,0.55);
+    transition: transform var(--transition);
+}
+
+.sidebar-header[role="button"]:hover .sidebar-avatar-play {
+    transform: scale(1.12);
+}
+
+.watch-film-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    margin: 2px 0 6px;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 980px;
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -0.01em;
+    background: linear-gradient(135deg, var(--accent), var(--grape));
+    box-shadow: 0 8px 18px rgba(123,110,246,0.34);
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.watch-film-btn:hover {
+    transform: scale(1.04) rotate(-1deg);
+    box-shadow: 0 10px 22px rgba(123,110,246,0.45);
+}
+
+.watch-film-btn:active {
+    transform: scale(0.97);
+}
+
+.wf-play {
+    font-size: 10px;
+}
